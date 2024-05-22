@@ -1,0 +1,9 @@
+.teal-blue{
+  background-color: #d85757e8;
+}
+.customCard .card{
+  transition: transform 0.8s;
+}
+.customCard .card:hover {
+  transform: scale(1.1);
+}
