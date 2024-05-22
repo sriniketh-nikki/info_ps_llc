@@ -25,15 +25,22 @@ function App() {
               <p className="ps-lg-5 pe-lg-5">
                 Managing payroll can be complex and time-consuming. At Info
                 Payroll Solutions LLC, we offer a streamlined, reliable payroll
-                solution designed to meet the needs of businesses of all sizes.
-                Our comprehensive services allow you to focus on what truly
-                matters growing your business.
+                solution designed to suit businesses of every scale. By
+                leveraging our comprehensive suite of automated services, you
+                can ensure accurate and timely payroll processing for your
+                employees. This empowers you to dedicate your focus to the core
+                driver of success propelling your business forward. Our
+                comprehensive services allow you to focus on what truly matters
+                growing your business.
               </p>
             </div>
           </div>
         </div>
       </div>
       {/* OPTIMIZING YOUR PAYROLL PROCESS */}
+      <div className="mb-4">
+        <h2 className="text-center">Our Features</h2>
+      </div>
       <div className="mt-2 mb-2 d-flex justify-content-around gap-2 flex-wrap container">
         {payrollProcessData.map((item) => (
           <Card
@@ -45,8 +52,8 @@ function App() {
       </div>
 
       <div className="teal-blue text-white pb-3 mt-5 container">
-        <div className="d-md-flex text-center">
-          <div className="col-5">
+        <div className="d-md-flex">
+          <div className="col-5 text-center">
             <img
               src={record_keeping_reporting}
               alt="record_keeping_reporting"
@@ -55,10 +62,10 @@ function App() {
             />
           </div>
           <div className="col-lg-7 p-2">
-            <h5 className="pt-lg-5">
+            <h5 className="text-center pt-lg-5">
               <b>RECORD KEEPING AND REPORTING</b>
             </h5>
-            <p className="pt-lg-5 p-3">
+            <p className="pt-lg-4 p-3">
               Maintain detailed records and generate customizable reports for
               analysis. Monitor processes regularly, implementing updates for
               enhanced efficiency and compliance. Our solution ensures
@@ -78,9 +85,7 @@ function App() {
       </div>
       <div>
         <div className="m-5 text-center">
-          <h1>
-            <b>Essential Steps For Info Payroll Process</b>
-          </h1>
+          <h2>Benefits of Payroll Process</h2>
         </div>
       </div>
       <div className="mt-2 mb-2 d-flex justify-content-around gap-2 flex-wrap container">
@@ -97,13 +102,13 @@ function App() {
           <img
             src={unlocking_efficiency}
             alt="unlocking_efficiency"
-            width="350px"
-            height="300px"
+            width="320px"
+            height="280px"
           />
         </div>
-        <div className="col-lg-7 text-center p-5">
-          <h5>UNLOCKING EFFICIENCY</h5>
-          <p className="pt-lg-5 p-3">
+        <div className="col-lg-7  p-5">
+          <h5 className="text-center">UNLOCKING EFFICIENCY</h5>
+          <p className="pt-lg-4 p-3">
             Infomerica Payroll Solutions offers a comprehensive array of
             benefits, from automating payroll processes to ensuring compliance
             and providing real-time insights. With our solution, organizations
