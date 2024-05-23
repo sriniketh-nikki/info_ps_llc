@@ -118,17 +118,22 @@ function App() {
         </div>
       </div>
       <Footer />
-      <div className="text-center">
-        <a
-          href="https://www.infopsllc.com/lander"
-          target="blank"
-          className="text-decoration-none text-dark"
+      <div
+          className="p-1 ps-2 text-center"
         >
           <p>
-            <b>www.infopsllc.com</b>
+            <b>
+            Copyright &copy; 2024{" "}
+            <a
+              href="https://infomericainc.com/"
+              className="text-decoration-none text-danger"
+            >
+              Infomerica
+            </a>{" "}
+            All Rights Reserved.
+            </b>
           </p>
-        </a>
-      </div>
+        </div>
     </>
   );
 }
