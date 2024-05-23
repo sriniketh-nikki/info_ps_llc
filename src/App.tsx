@@ -123,7 +123,7 @@ function App() {
         >
           <p>
             <b>
-            Copyright &copy; 2024{" "}
+            &copy; 2024{" "}
             <a
               href="https://infomericainc.com/"
               className="text-decoration-none text-danger"
